@@ -13,6 +13,8 @@ public class TestEncoding {
 		 *---------------------------------------------------------*/
 		String asciiString = "Ashfaq";
 		String asciiBase64 = encoder.asciiToBase64(asciiString);
+		System.out.println("ASCII Input : " + asciiString);
+		System.out.println("Base64 output : " + asciiBase64);
 		/*---------------------------------------------------------*/
 		
 		/*---------------------------------------------------------*
@@ -20,6 +22,8 @@ public class TestEncoding {
 		 *---------------------------------------------------------*/
 		String hexString = "49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d";
 		String hexBase64 = encoder.hexToBase64(hexString);
+		System.out.println("HEX Input : " + hexString);
+		System.out.println("Base64 output : " + hexBase64);
 		/*---------------------------------------------------------*/
 		
 	}
